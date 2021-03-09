@@ -1,0 +1,20 @@
+Andrés Teruel Fernández
+
+-Comando:
+openssl enc -e -rc4 -a -p -pass pass:seguridad -in textoplano1.txt -out texto-rc4.bin
+
+(Como este algoritmo no usa IV no tiene valores de IV)
+salt=EC7ED5C7A7EBB9FD
+key=749B28716F9C7D5D9E74A35C91DAE2E8
+
+
+-Contenido del texto plano:
+
+asdkhfañdshf
+asdfñakhdf
+asdfaśdfadsfadfalkfj
+
+-Contenido del texto cifrado:
+
+U2FsdGVkX1/sftXHp+u5/YVZQoHefV/poX995kA6tgZHXf461L9VKlOfTtpnoxso
+CLrdtOYLgp3xIcd/7XBzVw==

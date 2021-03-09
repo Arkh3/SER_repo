@@ -1,0 +1,6 @@
+Usando la opción -p en el comando, nos enseña los parámetros del cifrado (clave, iv y salt). Como la clave se crea utilizando el valor de salt y la contraseña dada, podemos usar dos veces la misma contraseña que al tener un valor de salt diferente nos creará dos claves diferentes. 
+
+Ya con esto los textos cifrados son diferentes (ya que hay dos claves diferentes) pero además los vectores de inicialización son diferentes por lo que también influye.
+
+comando: 
+"openssl enc -e -aes-128-cbc -p -a -pass pass:seguridad -in textoplano1.txt -out texto-aes-128-cbc-1.txt"

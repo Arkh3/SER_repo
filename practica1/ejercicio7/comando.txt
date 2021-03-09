@@ -1,0 +1,1 @@
+openssl enc -e -aes-128-cbc -p -pass pass:seguridad -in textoplano1.txt -out textocifrado.bin

@@ -1,0 +1,7 @@
+Andrés Teruel Fernández
+
+Comando: 	openssl dgst -sha1 -hmac seguridad /etc/hosts
+Salida: 	HMAC-SHA1(/etc/hosts)= f3daec44e59c487ab4d525506f883b4be4a64497
+
+Comando: 	openssl dgst -sha256 -hmac seguridad /etc/hosts
+Salida: 	HMAC-SHA256(/etc/hosts)= 8aa597930dda27145bb5871a382ec8e3295b7b7ceb53230c6cb7bd1b96c33323

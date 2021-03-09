@@ -1,0 +1,14 @@
+Andrés Teruel Fernández
+
+openssl enc -e -aes-128-cbc -p -a -pass pass:seguridad -in textoplano1.txt -out textocifrado2.bin
+
+salt=AAF173167572C461
+key=1644B44C2707E89E96D111C2C102948A
+iv =22F6B1B07944C4271609652A89994079
+
+
+
+contenido del fichero "textocifrado2.bin":
+
+U2FsdGVkX1+q8XMWdXLEYbYKMQLDNKY5i8YuKpxjbuEVK3w+o0EMFJywmmp7+nuo
+AAxENp6PAhXdqM+6rRMoHw==

@@ -1,0 +1,12 @@
+Andrés Teruel Fernández
+
+
+
+openssl dgst -sha1 hosts
+SHA1(hosts)= 118dae882a2fc68eb09dec5efe848d206cc27572
+
+openssl dgst -sha1 hosts
+SHA1(hosts)= 118dae882a2fc68eb09dec5efe848d206cc27572
+
+openssl dgst -sha1 services 
+SHA1(services)= 0ba1c936042f2d6aade5563e9fb319275aec0ee6

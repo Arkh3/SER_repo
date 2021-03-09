@@ -1,0 +1,6 @@
+Andrés Teruel Fernández
+
+Vector de inicialización y la clave generadas:
+
+IV: 8eb8d72672665d6b436d1b0fee70d637 
+Clave de cifrado: f581f5f491680bfcd36cd0606dc926ad

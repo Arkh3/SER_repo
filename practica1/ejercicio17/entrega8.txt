@@ -1,0 +1,18 @@
+Andrés Teruel Fernández
+
+
+Comando: 	gpg --print-md SHA1 services 
+Salida: 	services: 0BA1 C936 042F 2D6A ADE5  563E 9FB3 1927 5AEC 0EE6
+
+
+Comando:	openssl dgst -sha1 services
+Salida:		SHA1(services)= 0ba1c936042f2d6aade5563e9fb319275aec0ee6
+
+
+
+Comando:	gpg --print-md RIPEMD160 services 
+Salida:		services: F3CC E70F 74AC DF16 B7AC  069F 6465 1E6D 4416 6674
+
+Comando: 	openssl dgst -ripemd160 services
+Salida:		RIPEMD160(services)= f3cce70f74acdf16b7ac069f64651e6d44166674
+
