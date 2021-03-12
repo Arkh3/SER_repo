@@ -1,0 +1,25 @@
+andres@serdna:~/Documentos/ser_repo/practica2/entrega7$ gpg --list-keys
+/home/andres/.gnupg/pubring.kbx
+-------------------------------
+pub   rsa1024 2021-03-12 [SC]
+      ADDD96A9828652677567F62AFC51E23BB7B7234F
+uid        [  absoluta ] Andrés Teruel (ejercicio6 de ser) <anteruel@ucm.es>
+sub   rsa1024 2021-03-12 [E]
+
+pub   rsa1024 2021-03-12 [SC]
+      C0221266E92206251857F83024D8AE3C82BEB790
+uid        [  absoluta ] Andrés Teruel (ejercicio6 de ser) <anteruel@ucm.es>
+sub   rsa1024 2021-03-12 [E]
+
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega7$ cp /etc/hosts .
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega7$ ls
+hosts
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega7$ gpg --encrypt --recipient ADDD96A9828652677567F62AFC51E23BB7B7234F -a hosts
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega7$ ls
+hosts  hosts.asc
+
+

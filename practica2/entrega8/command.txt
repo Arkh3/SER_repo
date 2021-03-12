@@ -1,0 +1,22 @@
+andres@serdna:~/Documentos/ser_repo/practica2/entrega8$ gpg --list-secret-keys
+/home/andres/.gnupg/pubring.kbx
+-------------------------------
+sec   rsa1024 2021-03-12 [SC]
+      ADDD96A9828652677567F62AFC51E23BB7B7234F
+uid        [  absoluta ] Andrés Teruel (ejercicio6 de ser) <anteruel@ucm.es>
+ssb   rsa1024 2021-03-12 [E]
+
+sec   rsa1024 2021-03-12 [SC]
+      C0221266E92206251857F83024D8AE3C82BEB790
+uid        [  absoluta ] Andrés Teruel (ejercicio6 de ser) <anteruel@ucm.es>
+ssb   rsa1024 2021-03-12 [E]
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega8$ gpg --sign -a --digest-algo SHA1 --local-user ADDD96A9828652677567F62AFC51E23BB7B7234F hosts
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega8$ gpg --sign -a --digest-algo SHA256 --local-user ADDD96A9828652677567F62AFC51E23BB7B7234F hosts 
+El fichero 'hosts.asc' ya existe. ¿Sobreescribir? (s/N) n
+Introduzca nuevo nombre de fichero: hosts_sha256.asc
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega8$ ls
+hosts  hosts.asc  hosts_sha256.asc
+
