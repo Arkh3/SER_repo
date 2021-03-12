@@ -1,0 +1,20 @@
+andres@serdna:~/Documentos/ser_repo/practica2/entrega1$ openssl genpkey -genparam -algorithm EC -out ecparam.pem -pkeyopt ec_paramgen_curve:prime192v1
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega1$ openssl genpkey --paramfile ecparam.pem -out eckey.pem
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega1$ openssl pkey -in eckey.pem  -noout -text
+Private-Key: (192 bit)
+priv:
+    28:a8:bb:c2:de:ef:71:f3:c7:1c:c6:77:af:80:67:
+    06:4f:44:f5:a0:70:a9:99:3c
+pub:
+    04:3b:91:96:6e:eb:4a:a8:01:cd:c1:da:a0:76:9d:
+    10:77:ad:21:c0:3f:cc:d9:bb:f6:d5:33:25:c8:6e:
+    53:a2:92:fd:bf:84:f6:41:01:00:8f:36:e6:5b:51:
+    ad:79:da:16
+ASN1 OID: prime192v1
+NIST CURVE: P-192
+
+andres@serdna:~/Documentos/ser_repo/practica2/entrega1$ ls
+dhkey.pem  dsakey.pem  eckey.pem  ecparam.pem  rsakey.pem
+
