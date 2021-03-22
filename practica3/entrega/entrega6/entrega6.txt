@@ -1,0 +1,80 @@
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --edit-key user1 quit
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Clave secreta disponible.
+
+sec  rsa3072/74ACDE81E89A7B5C
+     creado: 2021-03-22  caduca: 2023-03-22  uso: SC  
+     confianza: absoluta      validez: absoluta
+ssb  rsa3072/0C20BA16293B8DB1
+     creado: 2021-03-22  caduca: 2023-03-22  uso: E   
+[  absoluta ] (1). user1
+
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --edit-key user2 quit
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Clave secreta disponible.
+
+sec  rsa3072/B623AE839E343F7C
+     creado: 2021-03-22  caduca: 2023-03-22  uso: SC  
+     confianza: dudosa        validez: total
+ssb  rsa3072/2B81B188B04BB871
+     creado: 2021-03-22  caduca: 2023-03-22  uso: E   
+[   total   ] (1). user2
+
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --edit-key user3 quit
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Clave secreta disponible.
+
+sec  rsa3072/B0C25F54681CE516
+     creado: 2021-03-22  caduca: 2023-03-22  uso: SC  
+     confianza: no definido   validez: total
+ssb  rsa3072/7FD082B4D1CF0214
+     creado: 2021-03-22  caduca: 2023-03-22  uso: E   
+[   total   ] (1). user3
+
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --edit-key user4 quit
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Clave secreta disponible.
+
+sec  rsa3072/686F311981F76B7B
+     creado: 2021-03-22  caduca: 2023-03-22  uso: SC  
+     confianza: dudosa        validez: total
+ssb  rsa3072/5A93E51A7FE0424D
+     creado: 2021-03-22  caduca: 2023-03-22  uso: E   
+[   total   ] (1). user4
+
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --edit-key user5 quit
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Clave secreta disponible.
+
+sec  rsa3072/75AE8BBED7CDC807
+     creado: 2021-03-22  caduca: 2023-03-22  uso: SC  
+     confianza: dudosa        validez: total
+ssb  rsa3072/596AE93E79C5DE6E
+     creado: 2021-03-22  caduca: 2023-03-22  uso: E   
+[   total   ] (1). user5
+
+
+
+andres@serdna:~/Documentos/ser_repo/practica3/entrega6$ gpg --check-trustdb 
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: nivel: 0  validez:   3  firmada:   3  confianza: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: nivel: 1  validez:   3  firmada:   1  confianza: 0-, 0q, 0n, 3m, 0f, 0u
+gpg: nivel: 2  validez:   1  firmada:   0  confianza: 0-, 1q, 0n, 0m, 0f, 0u
+gpg: siguiente comprobación de base de datos de confianza el: 2023-03-22
+
+

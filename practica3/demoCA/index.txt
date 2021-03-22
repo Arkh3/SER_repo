@@ -1,0 +1,2 @@
+R	220322111729Z	210322112809Z	01	unknown	/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd/CN=user1
+R	220322111817Z	210322113828Z	02	unknown	/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd/CN=user2
